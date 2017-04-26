@@ -31,18 +31,45 @@
 // }
 </script>
 <script type="module"> 
-const a=6;
-if(true){
-const a=1243;
-console.log("a",a);
-
-
-console.log("a",a);
-}
-// const a=33;
-console.log("a",a);
-
+// const a=6;
+// if(true){
+// const a=1243;
+// console.log("a",a);
+// }
+// console.log("a",a);
 // const cannot be re declared within its scope or block
+</script>
+
+<script type="module"> 
+// const a={"name":"Ankur"};
+
+// a.name="asdfasdf"  --->allowed
+// a={}  --> wrong
+// console.log("ffa",a);
+
+//Modifying the Json is allowed But not delete or empty the object
+</script>
+
+<script type="module"> 
+// Anonymous function using ES6
+
+let circleArea= (pi,r)  => {
+	let area =pi*r*r;
+	return area;
+	
+}
+console.log(circleArea(3.14,123));
+
+// ES5 function
+var area = function (pi,r){
+	return pi*r*r;
+	
+}
+
+console.log(area(3.14,123));
+
+
+//Difference in anonymous function declaration. and 	for named function
 </script>
 </body>
 </html>
